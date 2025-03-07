@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #273d4e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #69bff5; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #006eb3; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --green-color : #16ca05;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -30,7 +30,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #e5eaee;  /* The default color of the main navmenu links */
+  --nav-color: #8f8f8f;  /* The default color of the main navmenu links */
   --nav-hover-color: #159aeb; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -223,14 +223,63 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(0, 0, 0, 0.75);
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 20px 0;
-  transition: none;
+  transition: all 0.5s;
   z-index: 997;
+  background-color: var(--background-color);
+}
+
+.header .topbar {
+  background-color: var(--accent-color);
+  height: 40px;
+  padding: 0;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+.header .topbar .contact-info i {
+  font-style: normal;
+  color: var(--contrast-color);
+}
+
+.header .topbar .contact-info i a,
+.header .topbar .contact-info i span {
+  padding-left: 5px;
+  color: var(--contrast-color);
+}
+
+@media (max-width: 575px) {
+
+  .header .topbar .contact-info i a,
+  .header .topbar .contact-info i span {
+    font-size: 13px;
+  }
+}
+
+.header .topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.header .topbar .contact-info i a:hover {
+  color: var(--contrast-color);
+  text-decoration: underline;
+}
+
+.header .topbar .social-links a {
+  color: color-mix(in srgb, var(--contrast-color), transparent 40%);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+.header .topbar .social-links a:hover {
+  color: var(--contrast-color);
+}
+
+.header .branding {
+  min-height: 60px;
+  padding: 10px 0;
 }
 
 .header .logo {
@@ -238,8 +287,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 100px;
+  margin-right: 30px;
 }
 
 .header .logo h1 {
@@ -252,20 +301,18 @@ h6 {
 .header .cta-btn,
 .header .cta-btn:focus {
   color: var(--contrast-color);
-  font-size: 11px;
-  padding: 5px 18px;
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 20px;
   margin: 0 0 0 30px;
-  border-radius: 4px;
+  border-radius: 50px;
   transition: 0.3s;
-  text-transform: uppercase;
-  border: 2px solid var(--contrast-color);
 }
 
 .header .cta-btn:hover,
 .header .cta-btn:focus:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
-  border-color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
 @media (max-width: 1200px) {
@@ -284,48 +331,14 @@ h6 {
   }
 }
 
-@media (max-width: 850px) {
-
-  /* Escondendo a imagem para telas grandes */
-  .hero-image {
-    display: none !important;
-  }
-
-  /* Exibindo a imagem para telas pequenas */
-  .hero-image-small {
-    display: block !important;
-  }
-
-  #hero h2 {
-    font-size: 24px !important;
-    margin-top: 410px !important;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Ajustando o efeito de sombra */
-  }
-
-}
-
-@media (max-width: 375px) {
-
-  .btn-get-started{
-    width: 210px !important;
-  }
-
-  #hero h2 {
-    font-size: 14px !important;
-    margin-top: 300px !important;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Ajustando o efeito de sombra */
-  }
-
-}
-
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
-/* Global Header on Scroll
-------------------------------*/
-.scrolled .header {
-  --background-color: rgba(21, 34, 43, 0.85);
+.scrolled .header .topbar {
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -361,17 +374,16 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 13px;
+    font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
-    text-transform: uppercase;
   }
 
   .navmenu a i,
@@ -385,6 +397,7 @@ h6 {
   .navmenu>ul>li>a:before {
     content: "";
     position: absolute;
+    width: 100%;
     height: 2px;
     bottom: -6px;
     left: 0;
@@ -404,7 +417,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: color-mix(in srgb, var(--nav-color) 90%, white 15%);
+    color: var(--nav-hover-color);
   }
 
   .navmenu .dropdown ul {
@@ -589,6 +602,7 @@ h6 {
     display: block;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -955,12 +969,14 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
-  padding: 80px 0;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 0px;
+  background: transparent;
 }
 
 .hero img {
@@ -968,14 +984,15 @@ section,
   inset: 0;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 250px;
   object-fit: cover;
   z-index: 1;
+  background-color: #000910;
 }
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 55%);
+  background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -991,6 +1008,7 @@ section,
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #000910;
 }
 
 .hero p {
@@ -1000,9 +1018,9 @@ section,
 }
 
 .hero .btn-get-started {
-  background: var(--accent-color);
+  background-color: rgb(0, 126, 0);;
   color: var(--contrast-color);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -1013,7 +1031,7 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: var(--green-color);
 }
 
 .hero .btn-watch-video {
@@ -1038,6 +1056,10 @@ section,
 
 .hero .btn-watch-video:hover i {
   color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.hero span{
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
