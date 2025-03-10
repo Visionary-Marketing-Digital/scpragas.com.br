@@ -26,6 +26,7 @@
   --green-color : #16ca05;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --form-color: rgb(222, 241, 250);
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -1693,7 +1694,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item {
-  background-color: var(--surface-color);
+  background-color: var(--form-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 24px 0 30px 0;
 }
@@ -1728,7 +1729,7 @@ section,
 }
 
 .contact .php-email-form {
-  background-color: var(--surface-color);
+  background-color: var(--form-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   height: 100%;
   padding: 30px;
