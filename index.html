@@ -426,7 +426,10 @@
 
     <!-- Contator começo-->
     <section id="stats" class="stats section light-background">
-
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Um trabalho de sucesso:</h2>
+        <p>Foco na Qualidade e nos Relacionamentos<br></p>
+      </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
@@ -559,13 +562,18 @@
     </section>COMENTADO SERVIÇOS 2 -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
+    <section id="testimonials" class="testimonials section">
 
-      <img src="assets/img/fundo-area-de-depoimento.png" class="testimonials-bg" alt="">
+      <!-- Section Title -->
+      <div class="container section-title2" data-aos="fade-up">
+        <span>Avaliações</span>
+        <h2>Avaliações</h2>
+        <p>Veja algumas das avaliações de nossos clientes</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
           <script type="application/json" class="swiper-config">
             {
               "loop": true,
@@ -578,51 +586,50 @@
                 "el": ".swiper-pagination",
                 "type": "bullets",
                 "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
               }
             }
           </script>
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="testimonial-item stars">
+            <p>
+              <i class=" bi bi-quote quote-icon-left"></i>
+                <span>Gostei muito do atendimento da natália e do douglas quem fez à dedetização na minha casa, muito educados, pontuais e tiraram todas minhas dúvidas ! douglas passou veneno na casa toda e em todos os ralos ! super recomendo a empresa !</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+                </p>
                 <img src="assets/img/coment-1.png" class="testimonial-img" alt="">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 <h3>Mayara Bento</h3>
                 <h4>Cliente</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>gostei muito do atendimento da natália e do douglas quem fez à dedetização na minha casa, muito educados, pontuais e tiraram todas minhas dúvidas ! douglas passou veneno na casa toda e em todos os ralos ! super recomendo a empresa !</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/coment-2.png" class="testimonial-img" alt="">
-                <h3>Karoline Alves</h3>
-                <h4>Cliente</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Um orçamento muito bom, um atendimento melhor ainda, desde o primeiro contato, até a visita técnica.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
+                <img src="assets/img/coment-2.png" class="testimonial-img" alt="">
+                <h3>Karoline Alves</h3>
+                <h4>Cliente</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/coment-3.png" class="testimonial-img" alt="">
-                <h3>Helio Ravanini</h3>
-                <h4>Cliente</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Contratei um serviço de descupinização em minha casa. Fui prontamente atendido pelo Douglas que me passou todas as informações de como seria o serviço e as possibilidades de sucesso.
@@ -631,38 +638,35 @@
                     Recomendo totalmente</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
+                <img src="assets/img/coment-3.png" class="testimonial-img" alt="">
+                <h3>Helio Ravanini</h3>
+                <h4>Cliente</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/coment-4.png" class="testimonial-img" alt="">
-                <h3>MR. Grey</h3>
-                <h4>Cliente</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Trabalho muito bem feito por profissionais competentes e comprometidos.O resultado ficou perfeito.nao sobrou nenhum inseto,barata,nem escorpiao,nem dentro, nem fora da casa.resolveu meu problema!obrigado!!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
+                <img src="assets/img/coment-4.png" class="testimonial-img" alt="">
+                <h3>MR. Grey</h3>
+                <h4>Cliente</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/coment-5.png" class="testimonial-img" alt="">
-                <h3>Ivane Lucchesi Furtado</h3>
-                <h4>Cliente</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Muito bom o atendimento. Responderam rápido o contato. A avaliação do local foi feita no dia seguinte. O valor do serviço é acessível. O funcionário explicou os procedimentos do serviço! Recomendo!</span>
+                  <span>Excelente atendimento, total atenção com a necessidade, análise e indicação da melhor solução para o caso apresentado. Pontualidade no agendamento. Melhor valor na região em 5 orçamentos. Equipe nota 10.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
+                <img src="assets/img/coment-5.png" class="testimonial-img" alt="">
+                <h3>Rosecleide Adão de Jesus</h3>
+                <h4>Cliente</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -935,7 +939,7 @@
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Endereço</h3>
-                  <p>R. Manoel Augusto de Souza, 157 - Centro - Santa Cruz da Conceição - Leme/SP</p>
+                  <p>R. Manoel Augusto de Souza, 157 - Centro - Sta Cruz da Conceição - Leme/SP</p>
                 </div>
               </div><!-- End Info Item -->
 

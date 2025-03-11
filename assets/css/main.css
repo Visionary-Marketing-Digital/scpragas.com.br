@@ -26,7 +26,7 @@
   --green-color : #16ca05;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-  --form-color: rgb(222, 241, 250);
+  --form-color: rgb(195, 230, 247);
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -966,6 +966,56 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Global Section 2 Titles
+--------------------------------------------------------------*/
+.section-title2 {
+  text-align: center;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.section-title2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title2 span {
+  position: absolute;
+  top: 4px;
+  color: color-mix(in srgb, var(--heading-color), transparent 95%);
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.section-title2 p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 575px) {
+  .section-title2 h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .section-title2 span {
+    font-size: 38px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
@@ -1390,74 +1440,40 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
-.testimonials {
-  padding: 80px 0;
-  position: relative;
-}
-
-.testimonials:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-.testimonials .testimonials-bg {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.testimonials .container {
-  position: relative;
-  z-index: 3;
-}
-
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
 
 .testimonials .testimonial-item {
-  text-align: center;
+  box-sizing: content-box;
+  min-height: 320px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
-  border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  margin: 0 auto;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid var(--background-color);
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 45px;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  margin: 0 0 15px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0 0 0 45px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, var(--accent-color), transparent 50%);
   font-size: 26px;
   line-height: 0;
 }
@@ -1478,7 +1494,13 @@ section,
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 auto 15px auto;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: color-mix(in srgb, var(--default-color), transparent 97%);
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
 }
 
 .testimonials .swiper-wrapper {
@@ -1493,19 +1515,13 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 50%);
-  opacity: 0.5;
+  background-color: var(--background-color);
+  opacity: 1;
+  border: 1px solid var(--accent-color);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--default-color);
-  opacity: 1;
-}
-
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
-  }
+  background-color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
