@@ -68,35 +68,26 @@
     });
   }
 
+
   /**
-   * Scroll top button
-   */
-/**
- * Scroll top button
- */
-let scrollTop = document.querySelector('.scroll-top');
+  * Scroll top button
+  */
 
-function toggleScrollTop() {
-  if (scrollTop) {
-    window.scrollY > 50 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+  let scrollTop = document.querySelector('.scroll-top');
+
+  function toggleScrollTop() {
+    if (scrollTop) {
+      // Mostra o botão de rolar para o topo quando a página rolar mais de 50px
+      if (window.scrollY > 50) {
+        scrollTop.classList.add('active');
+      } else {
+        scrollTop.classList.remove('active');
+      }
+    }
   }
-}
 
-scrollTop.addEventListener('click', (e) => {
-  // Verifica se o clique é no link do WhatsApp
-  if (e.target.closest('a') && e.target.closest('a').href.includes('wa.me')) {
-    window.location.href = e.target.closest('a').href; // Redireciona para o WhatsApp
-  } else {
-    e.preventDefault(); // Impede o comportamento padrão de navegação (rolar para o topo)
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-});
-
-window.addEventListener('load', toggleScrollTop);
-document.addEventListener('scroll', toggleScrollTop);
+  window.addEventListener('load', toggleScrollTop);
+  document.addEventListener('scroll', toggleScrollTop);
 
   /**
    * Animation on scroll function and init
