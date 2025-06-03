@@ -1366,6 +1366,11 @@ section,
   color: var(--accent-color);
 }
 
+.features .nav-link img {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .features .nav-link i {
     padding: 0;
