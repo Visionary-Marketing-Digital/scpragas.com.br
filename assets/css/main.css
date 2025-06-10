@@ -1387,6 +1387,15 @@ section,
   .features .nav-link i {
     font-size: 24px;
   }
+
+  .features .nav-link h4 {
+    font-size: 12px;
+  }
+
+  .features .nav-link img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .features .tab-content {
