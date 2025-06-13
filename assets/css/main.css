@@ -1874,6 +1874,7 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  margin-left: 8px;
 }
 
 .contact .php-email-form {
@@ -1924,6 +1925,36 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 25px 0;
+}
+
+.clients .swiper {
+  padding: 30px 0;
+}
+
+.clients .swiper-wrapper {
+  height: auto;
+}
+
+.clients .swiper-slide img {
+  transition: 0.3s;
+  width: 300px;
+}
+
+.clients .swiper-slide img:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 575px) {
+  .clients .swiper-slide img:hover {
+  transform: scale(1.1)
+  }
 }
 
 /*--------------------------------------------------------------
