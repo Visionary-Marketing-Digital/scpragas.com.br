@@ -1126,6 +1126,25 @@ section,
   color: var(--accent-color);
 }
 
+.btn-contato{
+  background-color: rgb(0, 126, 0);
+  color: var(--contrast-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.btn-contato:hover{
+ background-color: rgb(2, 184, 2);
+ color: white;
+}
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
