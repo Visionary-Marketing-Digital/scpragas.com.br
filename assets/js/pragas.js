@@ -359,7 +359,759 @@
             <p>A infestação por formigas urbanas exige uma abordagem profissional e personalizada. A SC Pragas oferece soluções seguras, eficazes e ambientalmente responsáveis para o controle definitivo de formigas em residências, empresas e instituições de saúde.</p>
         `
     },
-    
+    moscas: {
+        titulo: 'Moscas',
+        html: `
+            <h2>Controle Profissional de Moscas: Espécies Perigosas, Biologia, Prevenção e Dedetização</h2>
+
+            <h3>Introdução</h3>
+            <p>As moscas são insetos da ordem Diptera, amplamente distribuídas em ambientes urbanos e rurais. Além de causarem incômodo, diversas espécies são vetores mecânicos de patógenos, representando riscos significativos à saúde pública e à segurança alimentar. O controle eficaz dessas pragas requer conhecimento técnico especializado e a aplicação de protocolos rigorosos, alinhados às normas de qualidade e gestão ambiental.</p>
+
+            <h3>Principais Espécies de Moscas Perigosas no Brasil</h3>
+
+            <h4>1. Mosca Doméstica (Musca domestica)</h4>
+            <ul>
+            <li><strong>Distribuição:</strong> Amplamente presente em áreas urbanas e rurais.</li>
+            <li><strong>Características:</strong> Corpo acinzentado com quatro linhas longitudinais no tórax; olhos vermelhos; mede entre 5 a 8 mm.</li>
+            <li><strong>Biologia:</strong> Ciclo de vida completo em aproximadamente 7 a 10 dias; fêmeas podem depositar até 150 ovos por postura.</li>
+            <li><strong>Hábitos:</strong> Ativa durante o dia; alimenta-se de matéria orgânica em decomposição, fezes e alimentos humanos.</li>
+            <li><strong>Riscos:</strong> Vetora mecânica de agentes patogênicos causadores de doenças como salmonelose, disenteria e cólera.</li>
+            </ul>
+
+            <h4>2. Mosca Varejeira (Chrysomya megacephala)</h4>
+            <ul>
+            <li><strong>Distribuição:</strong> Comum em áreas urbanas, especialmente próximas a resíduos orgânicos.</li>
+            <li><strong>Características:</strong> Corpo metálico azul-esverdeado; olhos grandes; mede cerca de 10 a 12 mm.</li>
+            <li><strong>Biologia:</strong> Fêmeas depositam ovos em feridas abertas ou matéria orgânica em decomposição; ciclo de vida rápido.</li>
+            <li><strong>Hábitos:</strong> Atraída por odores fortes; frequenta lixões, feiras e abatedouros.</li>
+            <li><strong>Riscos:</strong> Causa miíase (berne) em humanos e animais; pode transmitir bactérias patogênicas.</li>
+            </ul>
+
+            <h4>3. Mutuca (Tabanus spp.)</h4>
+            <ul>
+            <li><strong>Distribuição:</strong> Predominante em áreas rurais e próximas a corpos d'água.</li>
+            <li><strong>Características:</strong> Corpo robusto; coloração variada entre marrom e preta; mede entre 10 a 25 mm.</li>
+            <li><strong>Biologia:</strong> Fêmeas hematófagas; ciclo de vida depende de condições ambientais.</li>
+            <li><strong>Hábitos:</strong> Ativas durante o dia; atacam mamíferos para alimentação sanguínea.</li>
+            <li><strong>Riscos:</strong> Transmissoras de doenças em animais; picadas dolorosas em humanos.</li>
+            </ul>
+
+            <h4>4. Mosca-dos-Banheiros (Psychoda spp.)</h4>
+            <ul>
+            <li><strong>Distribuição:</strong> Comum em ambientes úmidos, como banheiros e cozinhas.</li>
+            <li><strong>Características:</strong> Pequenas (2 a 5 mm); corpo e asas cobertos por pelos; coloração acinzentada.</li>
+            <li><strong>Biologia:</strong> Larvas desenvolvem-se em matéria orgânica presente em ralos e tubulações.</li>
+            <li><strong>Hábitos:</strong> Ativas principalmente à noite; atraídas por ambientes úmidos e escuros.</li>
+            <li><strong>Riscos:</strong> Embora não transmitam doenças diretamente, indicam problemas de higiene e podem causar alergias.</li>
+            </ul>
+
+            <h3>Biologia e Ciclo de Vida</h3>
+            <p>As moscas passam por um ciclo de vida completo (holometábolo) composto por quatro estágios: ovo, larva, pupa e adulto. A duração desse ciclo varia conforme a espécie e as condições ambientais, podendo ser de 7 a 30 dias. A reprodução rápida e a capacidade de adaptação a diversos ambientes tornam as moscas pragas desafiadoras no controle urbano.</p>
+
+            <h3>Hábitos e Comportamento</h3>
+            <ul>
+            <li>Alimentação: Alimentam-se de uma ampla variedade de substratos, incluindo alimentos humanos, fezes, lixo e matéria orgânica em decomposição.</li>
+            <li>Atividade: A maioria das espécies é diurna, com exceção das Psychoda spp., que são mais ativas à noite.</li>
+            <li>Locomoção: Voam rapidamente e pousam frequentemente, facilitando a disseminação de patógenos.</li>
+            </ul>
+
+            <h3>Estratégias de Prevenção</h3>
+            <ul>
+            <li>Higiene Ambiental: Manter ambientes limpos, evitando o acúmulo de lixo e resíduos orgânicos.</li>
+            <li>Armazenamento Adequado: Guardar alimentos em recipientes fechados e resistentes.</li>
+            <li>Vedação de Acessos: Instalar telas em janelas e portas; vedar frestas e rachaduras.</li>
+            <li>Manutenção de Ralos: Limpar regularmente ralos e tubulações, utilizando desinfetantes apropriados.</li>
+            <li>Controle de Umidade: Evitar acúmulo de água em plantas e recipientes.</li>
+            </ul>
+
+            <h3>Protocolo Técnico de Dedetização Contra Moscas</h3>
+            <ol>
+            <li><strong>Inspeção e Identificação:</strong> Avaliação detalhada do ambiente para identificar espécies presentes e focos de infestação.</li>
+            <li><strong>Controle Químico:</strong> Aplicação de inseticidas específicos, como piretróides, em áreas de repouso e reprodução das moscas.</li>
+            <li><strong>Iscas Atrativas:</strong> Utilização de iscas granuladas ou líquidas em pontos estratégicos para atrair e eliminar as moscas.</li>
+            <li><strong>Armadilhas Luminosas:</strong> Instalação de dispositivos que atraem moscas por luz UV, capturando-as em placas adesivas.</li>
+            <li><strong>Monitoramento Contínuo:</strong> Acompanhamento periódico para avaliar a eficácia das medidas e realizar ajustes conforme necessário.</li>
+            </ol>
+
+            <h3>Conclusão</h3>
+            <p>O controle profissional de moscas é essencial para garantir a saúde pública e a segurança em ambientes residenciais, comerciais e industriais. A SC Pragas oferece soluções integradas e eficazes para o manejo dessas pragas, utilizando técnicas avançadas e produtos de alta qualidade. Entre em contato conosco para uma avaliação personalizada e mantenha seu ambiente livre de moscas e dos riscos associados.</p>
+        `
+    },
+    mosquitos: {
+        titulo: 'Mosquitos',
+        html: `
+            <h3>Controle Profissional de Mosquitos: Espécies Perigosas, Biologia, Prevenção e Dedetização</h3>
+            <h4>Introdução</h4>
+            <p>Os mosquitos são insetos da ordem Diptera, amplamente distribuídos em ambientes urbanos e rurais. Além de causarem incômodo, diversas espécies são vetores de patógenos, representando riscos significativos à saúde pública. O controle eficaz dessas pragas requer conhecimento técnico especializado e a aplicação de protocolos rigorosos, alinhados às normas de qualidade e gestão ambiental.</p>
+
+            <h4>Principais Espécies de Mosquitos Perigosas no Brasil</h4>
+            <ol>
+            <li><strong>Aedes aegypti</strong><br>
+                <strong>Distribuição:</strong> Amplamente presente em áreas urbanas e rurais.<br>
+                <strong>Características:</strong> Corpo preto com listras brancas; mede cerca de 0,5 cm.<br>
+                <strong>Biologia:</strong> Ciclo de vida completo em aproximadamente 7 a 10 dias; fêmeas depositam ovos em recipientes com água parada.<br>
+                <strong>Hábitos:</strong> Ativo durante o dia; alimenta-se de sangue humano.<br>
+                <strong>Riscos:</strong> Vetora de doenças como dengue, zika, chikungunya e febre amarela urbana.
+            </li>
+            <li><strong>Anopheles darlingi</strong><br>
+                <strong>Distribuição:</strong> Comum em áreas rurais e silvestres, especialmente na região amazônica.<br>
+                <strong>Características:</strong> Corpo marrom; mede entre 6 a 15 mm.<br>
+                <strong>Biologia:</strong> Ciclo de vida completo em aproximadamente 10 a 14 dias; fêmeas depositam ovos em águas limpas e paradas.<br>
+                <strong>Hábitos:</strong> Ativo durante o crepúsculo e à noite; alimenta-se de sangue humano.<br>
+                <strong>Riscos:</strong> Principal vetor da malária no Brasil.
+            </li>
+            <li><strong>Culex quinquefasciatus</strong><br>
+                <strong>Distribuição:</strong> Predominante em áreas urbanas.<br>
+                <strong>Características:</strong> Corpo marrom; mede entre 3,96 a 4,25 mm.<br>
+                <strong>Biologia:</strong> Ciclo de vida completo em aproximadamente 10 a 14 dias; fêmeas depositam ovos em águas poluídas.<br>
+                <strong>Hábitos:</strong> Ativo durante a noite; alimenta-se de sangue humano.<br>
+                <strong>Riscos:</strong> Vetora de doenças como filariose e encefalites virais.
+            </li>
+            <li><strong>Aedes albopictus</strong><br>
+                <strong>Distribuição:</strong> Presente em áreas urbanas e rurais.<br>
+                <strong>Características:</strong> Corpo preto com listras brancas; conhecido como "mosquito-tigre-asiático".<br>
+                <strong>Biologia:</strong> Ciclo de vida completo em aproximadamente 7 a 10 dias; fêmeas depositam ovos em recipientes com água parada.<br>
+                <strong>Hábitos:</strong> Ativo durante o dia; alimenta-se de sangue humano e de animais.<br>
+                <strong>Riscos:</strong> Potencial vetor de dengue, zika e chikungunya.
+            </li>
+            </ol>
+
+            <h4>Biologia e Ciclo de Vida</h4>
+            <p>Os mosquitos passam por um ciclo de vida completo (holometábolo) composto por quatro estágios: ovo, larva, pupa e adulto. A duração desse ciclo varia conforme a espécie e as condições ambientais, podendo ser de 7 a 14 dias. A reprodução rápida e a capacidade de adaptação a diversos ambientes tornam os mosquitos pragas desafiadoras no controle urbano.</p>
+
+            <h4>Hábitos e Comportamento</h4>
+            <ul>
+            <li><strong>Alimentação:</strong> As fêmeas alimentam-se de sangue para o desenvolvimento dos ovos; os machos alimentam-se de néctar e seiva.</li>
+            <li><strong>Atividade:</strong> A maioria das espécies é ativa durante o crepúsculo e à noite, com exceção do Aedes aegypti e Aedes albopictus, que são diurnos.</li>
+            <li><strong>Locomoção:</strong> Voam rapidamente e são atraídos por odores corporais, dióxido de carbono e calor.</li>
+            </ul>
+
+            <h4>Estratégias de Prevenção</h4>
+            <ul>
+            <li><strong>Eliminação de Criadouros:</strong> Remover ou tratar recipientes que acumulem água parada.</li>
+            <li><strong>Uso de Repelentes:</strong> Aplicar repelentes nas áreas expostas do corpo.</li>
+            <li><strong>Instalação de Telas:</strong> Colocar telas em portas e janelas para impedir a entrada de mosquitos.</li>
+            <li><strong>Uso de Mosquiteiros:</strong> Utilizar mosquiteiros sobre camas, especialmente em áreas endêmicas.</li>
+            <li><strong>Educação Comunitária:</strong> Promover campanhas de conscientização sobre a importância do controle de mosquitos.</li>
+            </ul>
+
+            <h4>Protocolo Técnico de Dedetização Contra Mosquitos</h4>
+            <ul>
+            <li><strong>Inspeção e Diagnóstico:</strong> Avaliação detalhada do ambiente para identificar espécies presentes e focos de infestação.</li>
+            <li><strong>Controle Larval:</strong> Aplicação de larvicidas biológicos, como o Bacillus thuringiensis israelensis (BTI), em criadouros identificados.</li>
+            <li><strong>Controle Adulticida:</strong> Utilização de inseticidas específicos, como piretróides, por meio de pulverização residual ou nebulização (fumacê), em áreas de repouso e reprodução dos mosquitos.</li>
+            <li><strong>Monitoramento Contínuo:</strong> Acompanhamento periódico para avaliar a eficácia das medidas e realizar ajustes conforme necessário.</li>
+            </ul>
+
+            <h4>Conclusão</h4>
+            <p>O controle profissional de mosquitos é essencial para garantir a saúde pública e a segurança em ambientes residenciais, comerciais e industriais. A SC Pragas, conta com certificações, oferece soluções integradas e eficazes para o manejo dessas pragas, utilizando técnicas avançadas e produtos de alta qualidade. Entre em contato conosco para uma avaliação personalizada e mantenha seu ambiente livre de mosquitos e dos riscos associados.</p>
+        `
+    },
+    tracas: {
+        titulo: 'Traças',
+        html: `
+            <h2>Controle Profissional de Traças: Espécies Perigosas, Biologia, Prevenção e Dedetização</h2>
+
+            <h3>Introdução</h3>
+            <p>As traças são insetos pertencentes à ordem Lepidoptera, conhecidos por sua capacidade de danificar materiais orgânicos, como tecidos, papéis e alimentos armazenados. No Brasil, diversas espécies são consideradas pragas urbanas, exigindo estratégias específicas de controle e prevenção.</p>
+
+            <h3>Principais Espécies de Traças Perigosas no Brasil</h3>
+            <ol>
+            <li>
+                <strong>Traça-das-Roupas (Tineola bisselliella)</strong><br>
+                <strong>Distribuição:</strong> Amplamente presente em ambientes urbanos.<br>
+                <strong>Características:</strong> Adultos medem entre 6 a 10 mm, com coloração dourada e asas estreitas.<br>
+                <strong>Biologia:</strong> As larvas alimentam-se de fibras naturais, como lã, seda e algodão.<br>
+                <strong>Hábitos:</strong> Preferem locais escuros e pouco ventilados, como armários e gavetas.<br>
+                <strong>Riscos:</strong> Danos a roupas, estofados e tecidos diversos.
+            </li>
+            <li>
+                <strong>Traça-dos-Livros (Lepisma saccharina)</strong><br>
+                <strong>Distribuição:</strong> Comum em bibliotecas, arquivos e residências.<br>
+                <strong>Características:</strong> Inseto sem asas, com corpo alongado e coloração prateada.<br>
+                <strong>Biologia:</strong> Alimentam-se de materiais ricos em amido, como papéis, colas e tecidos.<br>
+                <strong>Hábitos:</strong> Ativos à noite, escondem-se em fendas e rachaduras durante o dia.<br>
+                <strong>Riscos:</strong> Danos a livros, documentos e papéis importantes.
+            </li>
+            <li>
+                <strong>Traça-dos-Cereais (Sitotroga cerealella)</strong><br>
+                <strong>Distribuição:</strong> Encontrada em armazéns e locais de armazenamento de grãos.<br>
+                <strong>Características:</strong> Adultos medem cerca de 10 mm, com asas estreitas e coloração amarelada.<br>
+                <strong>Biologia:</strong> As larvas desenvolvem-se dentro dos grãos, alimentando-se de seu interior.<br>
+                <strong>Hábitos:</strong> Atacam grãos armazenados, como milho, trigo e arroz.<br>
+                <strong>Riscos:</strong> Perdas significativas na qualidade e quantidade dos grãos armazenados.
+            </li>
+            <li>
+                <strong>Traça-da-Farinha (Plodia interpunctella)</strong><br>
+                <strong>Distribuição:</strong> Comum em cozinhas e despensas.<br>
+                <strong>Características:</strong> Adultos medem entre 8 a 10 mm, com asas anteriores de coloração marrom-avermelhada.<br>
+                <strong>Biologia:</strong> As larvas alimentam-se de produtos armazenados, como farinhas, cereais e frutas secas.<br>
+                <strong>Hábitos:</strong> Atacam alimentos armazenados, deixando teias e resíduos.<br>
+                <strong>Riscos:</strong> Contaminação e deterioração de alimentos, tornando-os impróprios para consumo.
+            </li>
+            </ol>
+
+            <h3>Biologia e Ciclo de Vida</h3>
+            <p>As traças passam por um ciclo de vida completo, composto por quatro estágios: ovo, larva, pupa e adulto. As fêmeas depositam ovos em locais propícios para o desenvolvimento das larvas, que, ao eclodirem, iniciam a alimentação nos materiais disponíveis. O tempo de desenvolvimento varia conforme a espécie e as condições ambientais, podendo durar de algumas semanas a vários meses.</p>
+
+            <h3>Hábitos e Comportamento</h3>
+            <ul>
+            <li><strong>Alimentação:</strong> As larvas são as principais responsáveis pelos danos, alimentando-se de materiais orgânicos, como tecidos, papéis e alimentos armazenados.</li>
+            <li><strong>Atividade:</strong> São mais ativas durante a noite, evitando a luz e preferindo ambientes escuros e pouco movimentados.</li>
+            <li><strong>Locomoção:</strong> Movimentam-se lentamente, escondendo-se em fendas, rachaduras e locais de difícil acesso.</li>
+            </ul>
+
+            <h3>Estratégias de Prevenção</h3>
+            <ul>
+            <li><strong>Higienização Regular:</strong> Manter ambientes limpos, aspirando carpetes, tapetes e estofados regularmente.</li>
+            <li><strong>Armazenamento Adequado:</strong> Guardar alimentos em recipientes herméticos e roupas em sacos selados.</li>
+            <li><strong>Controle de Umidade:</strong> Evitar ambientes úmidos, utilizando desumidificadores quando necessário.</li>
+            <li><strong>Iluminação e Ventilação:</strong> Manter locais bem iluminados e ventilados para inibir a proliferação das traças.</li>
+            <li><strong>Inspeção Frequente:</strong> Verificar periodicamente armários, gavetas e despensas em busca de sinais de infestação.</li>
+            </ul>
+
+            <h3>Protocolo Técnico de Dedetização Contra Traças</h3>
+            <p>A dedetização eficaz contra traças requer um protocolo técnico estruturado, conforme as melhores práticas do setor:</p>
+            <ul>
+            <li><strong>Inspeção e Diagnóstico:</strong> Avaliação detalhada do ambiente para identificar a espécie de traça presente e o grau de infestação.</li>
+            <li><strong>Definição do Tratamento:</strong> Escolha do método de controle mais adequado, considerando a espécie e a extensão da infestação.</li>
+            <li><strong>Aplicação de Inseticidas:</strong> Utilização de produtos específicos, como sprays e pós inseticidas, em locais estratégicos.</li>
+            <li><strong>Monitoramento Contínuo:</strong> Acompanhamento periódico para avaliar a eficácia do tratamento e realizar intervenções adicionais, se necessário.</li>
+            </ul>
+
+            <h3>Produtos Inseticidas Recomendados</h3>
+            <p>A escolha do produto inseticida deve considerar a espécie de traça e o tipo de infestação. Alguns dos produtos mais eficazes incluem:</p>
+            <ul>
+            <li><strong>Bacillus thuringiensis:</strong> Bactéria utilizada como bioinseticida, eficaz contra larvas de traças.</li>
+            <li><strong>Piretróides:</strong> Inseticidas sintéticos de amplo espectro, utilizados em pulverizações e tratamentos localizados.</li>
+            <li><strong>Fosfina:</strong> Gás utilizado em fumigações para controle de traças em produtos armazenados.</li>
+            <li><strong>Armadilhas Adesivas:</strong> Dispositivos que capturam traças adultas, auxiliando no monitoramento e controle da infestação.</li>
+            </ul>
+
+            <h3>Conclusão</h3>
+            <p>O controle profissional de traças é essencial para preservar a integridade de materiais orgânicos e garantir a segurança dos ambientes. A SC Pragas oferece soluções eficazes e sustentáveis para o manejo dessas pragas, utilizando técnicas avançadas e produtos de alta qualidade. Entre em contato conosco para uma avaliação personalizada e mantenha seu ambiente livre de traças e dos riscos associados.</p>
+        `
+    },
+    carrapatos: {
+        titulo: 'Carrapatos',
+        html: `
+            <h3>Controle Técnico de Carrapatos</h3>
+            <p><strong>Eficiência no combate e segurança ambiental com a SC Pragas</strong></p>
+            <p>Os carrapatos são ectoparasitas hematófagos responsáveis por diversas zoonoses graves em humanos e animais. A presença desses aracnídeos em ambientes urbanos e rurais representa um risco epidemiológico elevado, demandando uma abordagem técnica, segura e integrada. A SC Pragas atua com base em padrões de qualidade assegurando eficácia e responsabilidade socioambiental.</p>
+
+            <h4>Principais Espécies de Carrapatos Perigosos no Brasil</h4>
+            <ol>
+            <li><strong>Carrapato Estrela (Amblyomma sculptum)</strong>
+                <ul>
+                <li><strong>Importância médica:</strong> Principal vetor da Febre Maculosa Brasileira (Rickettsia rickettsii)</li>
+                <li><strong>Hospedeiros:</strong> Capivaras, equinos, bovinos, cães e humanos</li>
+                <li><strong>Características:</strong> Corpo ovalado, coloração marrom com escudo ornamentado em machos</li>
+                <li><strong>Ambiente:</strong> Áreas de mata, beiras de rios, parques urbanos com capivaras</li>
+                <li><strong>Perigos:</strong> Altamente agressivo e resistente a inseticidas de uso doméstico</li>
+                </ul>
+            </li>
+
+            <li><strong>Carrapato do Cão (Rhipicephalus sanguineus)</strong>
+                <ul>
+                <li><strong>Importância veterinária e médica:</strong> Transmissor da erlichiose e babesiose canina</li>
+                <li><strong>Hospedeiros:</strong> Cães, podendo picar humanos em casos de infestação severa</li>
+                <li><strong>Características:</strong> Pequeno, marrom-avermelhado, corpo mais achatado</li>
+                <li><strong>Ambiente:</strong> Ambientes urbanos, canis, residências e frestas de pisos</li>
+                <li><strong>Ciclo:</strong> reprodutivo completo em ambiente doméstico, mesmo sem vegetação</li>
+                </ul>
+            </li>
+
+            <li><strong>Carrapato do Boicim (Amblyomma aureolatum)</strong>
+                <ul>
+                <li><strong>Hospedeiros principais:</strong> Cães e animais silvestres (gambás, tatus, etc.)</li>
+                <li><strong>Importância:</strong> Também vetor potencial da febre maculosa</li>
+                <li><strong>Características:</strong> Escudo com coloração dourada nos machos, hábito florestal</li>
+                <li><strong>Distribuição:</strong> Mata Atlântica, regiões serranas, bordas de vegetação</li>
+                <li><strong>Perigos:</strong> Pode infestar cães de trilhas e levá-los a óbito em poucos dias sem tratamento</li>
+                </ul>
+            </li>
+            </ol>
+
+            <h4>Biologia e Ciclo de Vida dos Carrapatos</h4>
+            <ul>
+            <li>Metamorfose incompleta (hemimetábolos): ovo → larva → ninfa → adulto</li>
+            <li>Ciclo variável: Pode durar semanas ou meses, dependendo da espécie e condições ambientais</li>
+            <li>Fêmeas: Podem depositar até 5.000 ovos após alimentação sanguínea</li>
+            <li>Ambiente propício: Lugares com vegetação alta, frestas de pisos, rodapés, móveis, e casinhas de animais</li>
+            </ul>
+
+            <h4>Hábitos Comportamentais</h4>
+            <ul>
+            <li><strong>Fotossensíveis:</strong> Preferem locais escuros, frescos e com acesso a hospedeiros</li>
+            <li><strong>Padrão de movimentação:</strong> Escalam superfícies para facilitar o contato com animais</li>
+            <li><strong>Infestações silenciosas:</strong> Muitas vezes não percebidas até o aparecimento de doenças em pets ou humanos</li>
+            <li><strong>Resistência:</strong> Sobrevivem por longos períodos sem alimentação, especialmente na fase de ninfa</li>
+            </ul>
+
+            <h4>Prevenção Técnica Contra Carrapatos</h4>
+            <ul>
+            <li>Capina e controle de vegetação em quintais e terrenos baldios</li>
+            <li>Vedação de frestas e ralos onde ninfas se abrigam</li>
+            <li>Banhos regulares e controle veterinário em cães e outros pets</li>
+            <li>Manutenção de ambientes limpos, especialmente locais de abrigo animal</li>
+            <li>Barreira química preventiva com produtos específicos de uso profissional</li>
+            </ul>
+
+            <h4>Protocolo Profissional de Dedetização Contra Carrapatos</h4>
+            <p>A SC Pragas adota um modelo integrado de controle com alta eficácia:</p>
+            <ol>
+            <li><strong>Diagnóstico técnico e análise de foco:</strong> Inspeção profissional com lanternas UV e detecção de microabrigos</li>
+            <li><strong>Aplicação química direcionada:</strong> Utilização de nebulizadores e pulverizadores ULV com inseticidas piretroides de ação residual prolongada e IGRs (reguladores de crescimento)</li>
+            <li><strong>Intervenção em duas fases:</strong> Primeira aplicação com knockdown químico, seguida por reaplicação estratégica após 10 a 14 dias para quebrar o ciclo biológico</li>
+            <li><strong>Monitoramento pós-serviço e relatórios técnicos:</strong> Controle técnico documentado para clientes residenciais, comerciais e industriais</li>
+            </ol>
+            <p><strong>Todos os produtos aplicados pela SC Pragas são registrados na ANVISA e utilizados conforme as normas da RDC nº 52/2009 e legislação ambiental vigente.</strong></p>
+
+            <h4>Por que escolher a SC Pragas?</h4>
+            <ul>
+            <li>Certificações técnicas</li>
+            <li>Técnicos especializados e capacitados</li>
+            <li>Equipamentos de alta precisão com controle de dosagem</li>
+            <li>Atendimento emergencial e programado</li>
+            <li>Relatórios e laudos técnicos com validade para auditorias</li>
+            </ul>
+
+            <h4>Agende sua Avaliação Técnica</h4>
+            <p><strong>SC Pragas – Especialistas em controle de vetores com responsabilidade ambiental e precisão técnica.</strong></p>
+        `
+    },
+    percevejos: {
+        titulo: 'Percevejos',
+        html: `
+            <h3>Controle de Percevejos no Brasil: Espécies Perigosas, Biologia, Prevenção e Protocolos de Dedetização</h3>
+            <h4>Introdução</h4>
+            <p>Os percevejos pertencem à ordem Hemiptera e à família Cimicidae, sendo pragas urbanas de significativa importância sanitária. Algumas espécies causam desconforto, reações alérgicas e, em certos casos, podem atuar como vetores mecânicos de patógenos. A SC Pragas, empresa certificada, apresenta aqui um panorama técnico sobre as principais espécies encontradas no Brasil, seus hábitos, formas de prevenção e os melhores protocolos de controle químico.</p>
+
+            <h4>Principais Espécies de Percevejos Perigosas no Brasil</h4>
+            <h5>1. Cimex lectularius (Percevejo-de-cama-comum)</h5>
+            <ul>
+            <li><strong>Distribuição:</strong> Cosmopolita, frequente em áreas urbanas.</li>
+            <li><strong>Características:</strong> Cor marrom-avermelhada, corpo achatado, sem asas funcionais. Mede de 4 a 7 mm.</li>
+            <li><strong>Biologia:</strong> Hematófago. Alimenta-se de sangue humano preferencialmente à noite. Pode sobreviver meses sem se alimentar.</li>
+            <li><strong>Hábito:</strong> Esconde-se em colchões, frestas de móveis, tomadas e rodapés.</li>
+            </ul>
+
+            <h5>2. Triatoma infestans (Barbeiro)</h5>
+            <ul>
+            <li><strong>Distribuição:</strong> Presente principalmente em áreas rurais e periurbanas.</li>
+            <li><strong>Características:</strong> Corpo alongado, cor escura com bordas avermelhadas. Mede entre 2 a 3 cm.</li>
+            <li><strong>Biologia:</strong> Hematófago. Potencial vetor do Trypanosoma cruzi, agente causador da doença de Chagas.</li>
+            <li><strong>Hábito:</strong> Abriga-se em frestas de parede, ninhos de animais e colchões antigos.</li>
+            </ul>
+
+            <h5>3. Rhodnius prolixus</h5>
+            <ul>
+            <li><strong>Distribuição:</strong> Região Norte e Centro-Oeste do Brasil.</li>
+            <li><strong>Características:</strong> Corpo estreito, cor castanho-escura com faixas alaranjadas. Mede até 2,5 cm.</li>
+            <li><strong>Biologia:</strong> Também é vetor do Trypanosoma cruzi.</li>
+            <li><strong>Hábito:</strong> Vive em palmeiras, ninhos e, eventualmente, invade domicílios.</li>
+            </ul>
+
+            <h4>Biologia e Ciclo de Vida</h4>
+            <p>Todos os percevejos mencionados passam por metamorfose incompleta (ovo → ninfa → adulto). As fêmeas podem depositar de 200 a 500 ovos ao longo da vida. O ciclo completo pode variar de 30 a 90 dias, dependendo da temperatura e da disponibilidade de alimento.</p>
+
+            <h4>Hábitos e Comportamento</h4>
+            <ul>
+            <li><strong>Noturnos:</strong> Ativos principalmente durante a noite.</li>
+            <li><strong>Escondidos:</strong> Preferem locais escuros e protegidos.</li>
+            <li><strong>Atraídos pelo CO₂:</strong> Identificam hospedeiros pelo dióxido de carbono e calor corporal.</li>
+            <li><strong>Alta resistência:</strong> Capazes de resistir a períodos de jejum prolongado.</li>
+            </ul>
+
+            <h4>Medidas Preventivas</h4>
+            <ul>
+            <li>Inspeção frequente de colchões, sofás, frestas e tomadas.</li>
+            <li>Vedação de rachaduras e buracos em paredes e móveis.</li>
+            <li>Lavagem de roupas de cama em água quente (&gt; 60 °C).</li>
+            <li>Uso de capas impermeáveis em colchões e travesseiros.</li>
+            <li>Evitar o acúmulo de objetos e entulhos próximos ao domicílio.</li>
+            </ul>
+
+            <h4>Protocolo Técnico de Dedetização Contra Percevejos</h4>
+            <p>A dedetização contra percevejos deve ser realizada por empresa especializada e certificada. O protocolo técnico envolve:</p>
+
+            <h5>1. Diagnóstico Ambiental</h5>
+            <ul>
+            <li>Inspeção minuciosa do ambiente com lanternas UV e armadilhas adesivas.</li>
+            <li>Identificação da espécie e grau de infestação.</li>
+            </ul>
+
+            <h5>2. Controle Químico</h5>
+            <ul>
+            <li>Inseticidas piretroides (como deltametrina ou lambda-cialotrina): alta eficácia residual.</li>
+            <li>Reguladores de crescimento (IGRs): impedem a ecdise das ninfas.</li>
+            <li>Nebulização ULV (ultra baixo volume): ideal para penetração em frestas e estruturas.</li>
+            </ul>
+
+            <h5>3. Controle Físico (Complementar)</h5>
+            <ul>
+            <li>Uso de vapor a 180 °C em áreas infestadas.</li>
+            <li>Aspiração com filtros HEPA.</li>
+            <li>Remoção mecânica de ovos e ninfas.</li>
+            </ul>
+
+            <h4>Conclusão</h4>
+            <p>O controle eficiente de percevejos exige conhecimento técnico, produtos autorizados e protocolos que garantam segurança, eficácia e conformidade ambiental. A SC Pragas, conta com experiência e certificações, oferece soluções integradas e sustentáveis para o controle dessa praga, protegendo sua saúde, seu patrimônio e o meio ambiente.</p>
+        `
+    },
+    pulgas: {
+        titulo: 'Pulgas',
+        html: `
+            <h3>Controle Técnico de Pulgas</h3>
+            <p><strong>Diagnóstico preciso, ação eficaz e segurança ambiental — SC Pragas</strong></p>
+            <p>As pulgas são ectoparasitas com capacidade de reprodução acelerada e alta resistência no ambiente. Além do desconforto gerado por suas picadas, são vetores de doenças infecciosas e representam riscos sanitários em residências, comércios, indústrias e áreas rurais. A SC Pragas atua com tecnologia de ponta, uso de insumos profissionais aprovados pela ANVISA e protocolos baseados nas normas.</p>
+
+            <h4>Principais Espécies de Pulgas no Brasil</h4>
+            <ol>
+            <li><strong>Pulga do Gato (Ctenocephalides felis)</strong><br>
+            <strong>Hospedeiros:</strong> Gatos (principal), cães e humanos<br>
+            <strong>Características:</strong> Cor marrom escuro, corpo achatado lateralmente, ausência de asas<br>
+            <strong>Tamanho:</strong> 1,5 a 3 mm<br>
+            <strong>Perigos:</strong> Vetora da bactéria Bartonella henselae e de vermes como Dipylidium caninum<br>
+            <strong>Resiliência:</strong> Capaz de sobreviver até 2 meses sem hospedeiro</li>
+
+            <li><strong>Pulga do Cão (Ctenocephalides canis)</strong><br>
+            <strong>Hospedeiros:</strong> Cães (principal), mas pode infestar humanos<br>
+            <strong>Características:</strong> Cabeça mais arredondada que C. felis, coloração escura<br>
+            <strong>Habitat:</strong> Ambientes com presença de cães domésticos<br>
+            <strong>Perigos:</strong> Reações alérgicas e possível transmissão de doenças zoonóticas</li>
+
+            <li><strong>Pulga Humana (Pulex irritans)</strong><br>
+            <strong>Hospedeiro principal:</strong> Ser humano<br>
+            <strong>Características:</strong> Ausência de cerdas genais e pronotais, corpo escuro e robusto<br>
+            <strong>Distribuição:</strong> Associada a ambientes com acúmulo de matéria orgânica<br>
+            <strong>Perigos:</strong> Possível vetor de Yersinia pestis, Rickettsia spp. e Mycoplasma haemofelis</li>
+            </ol>
+
+            <h4>Biologia e Ciclo de Vida das Pulgas</h4>
+            <p><strong>Tipo de metamorfose:</strong> Completa (ovo → larva → pupa → adulto)<br>
+            <strong>Ovos:</strong> Deposita até 50 por dia; caem no ambiente, não permanecem no hospedeiro<br>
+            <strong>Larvas:</strong> Desenvolvem-se em frestas, carpetes, sofás, colchões e canis<br>
+            <strong>Pupas:</strong> Fase mais resistente; podem permanecer latentes por semanas<br>
+            <strong>Adultos:</strong> Necessitam de sangue para acasalamento e postura</p>
+
+            <h4>Hábitos Comportamentais</h4>
+            <ul>
+            <li><strong>Atividade:</strong> Intensificada em locais com alta presença de animais</li>
+            <li><strong>Pico de infestação:</strong> Verão e períodos chuvosos</li>
+            <li><strong>Locais preferenciais:</strong> Tapetes, camas, estofados, rodapés e áreas de abrigo de animais</li>
+            <li><strong>Infestação silenciosa:</strong> Muitas vezes só é percebida após instalação avançada no ambiente</li>
+            </ul>
+
+            <h4>Prevenção Eficiente Contra Pulgas</h4>
+            <ul>
+            <li>Higienização intensiva de pisos, móveis, carpetes e estofados</li>
+            <li>Aspiração frequente (sugere-se uso de aspirador com saco descartável)</li>
+            <li>Lavagem térmica de roupas de cama e tecidos utilizados por pets</li>
+            <li>Controle de acesso de animais silvestres e manutenção de quintais limpos</li>
+            <li>Aplicação mensal de produtos veterinários antipulgas em cães e gatos</li>
+            </ul>
+
+            <h4>Protocolo Técnico de Dedetização Contra Pulgas</h4>
+            <p>A SC Pragas emprega um protocolo rigoroso, dividido em etapas:</p>
+            <ol>
+            <li><strong>Diagnóstico e mapeamento da infestação:</strong> Análise técnica do ciclo e dos focos ambientais. Identificação da espécie prevalente e grau de infestação.</li>
+            <li><strong>Tratamento Integrado com Produtos Profissionais:</strong> Aplicação de inseticidas com ação ovicida, larvicida e adulticida. Utilização de reguladores de crescimento (IGRs) para interromper o ciclo reprodutivo.</li>
+            <li><strong>Aplicação Direcionada:</strong> Nebulização ou pulverização ULV em áreas críticas e abrigos, com inseticidas piretroides e neonicotinoides, conforme a carga biológica.</li>
+            <li><strong>Monitoramento Técnico e Retorno Programado:</strong> Acompanhamento pós-aplicação para assegurar eficácia e reavaliação do local em até 15 dias, se necessário.</li>
+            </ol>
+            <p><em>Todos os produtos utilizados pela SC Pragas têm registro ANVISA e são aplicados conforme as diretrizes da Resolução RDC nº 52/2009.</em></p>
+
+            <h4>Por que Escolher a SC Pragas?</h4>
+            <ul>
+            <li>Equipe técnica treinada e certificada</li>
+            <li>Equipamentos profissionais de aplicação com controle de vazão</li>
+            <li>Produtos seguros, sem odor e com efeito prolongado</li>
+            <li>Relatórios técnicos conforme exigências de auditorias e inspeções sanitárias</li>
+            </ul>
+
+            <p><strong>SC Pragas — Controle com segurança, eficácia e responsabilidade ambiental.</strong></p>
+        `
+    },
+    cupins: {
+        titulo: 'Cupins',
+        html: `
+            <h3>Controle Profissional de Cupins: Espécies Perigosas, Biologia, Prevenção e Dedetização</h3>
+
+            <h4>Introdução</h4>
+            <p>Os cupins representam uma das principais pragas urbanas responsáveis por danos estruturais severos em edificações e móveis no Brasil. Seu controle requer profundo conhecimento das espécies predominantes, suas características biológicas e comportamentais, além da aplicação rigorosa de protocolos técnicos de dedetização.</p>
+
+            <h4>Principais Espécies de Cupins Perigosos no Brasil</h4>
+            <ol>
+            <li><strong>Cupim de Madeira Seca (Cryptotermes brevis)</strong><br>
+                <strong>Características:</strong> Pequeno, medindo cerca de 4 a 6 mm, corpo amarelo claro a castanho, asas translucidas.<br>
+                <strong>Biologia:</strong> Vive exclusivamente em madeira seca, sem necessidade de contato com o solo. Colônias pequenas, mas altamente destrutivas.<br>
+                <strong>Hábitos:</strong> Ataca móveis, objetos de madeira e estruturas internas de madeira seca, dificultando a detecção precoce.<br>
+                <strong>Riscos:</strong> Danos significativos em móveis e acabamentos internos.
+            </li>
+            <li><strong>Cupim de Solo (Heterotermes spp. e Coptotermes spp.)</strong><br>
+                <strong>Características:</strong> Maior que os cupins de madeira seca, com castes de operários brancos e soldados com cabeça escura.<br>
+                <strong>Biologia:</strong> Constroem ninhos no solo, necessitam de contato com umidade e solo para sobreviver.<br>
+                <strong>Hábitos:</strong> Atacam fundações, estruturas de madeira enterrada, forros e pisos. Colonias podem ser muito grandes.<br>
+                <strong>Riscos:</strong> Comprometem a estrutura da edificação, causando risco à integridade do imóvel.
+            </li>
+            </ol>
+
+            <h4>Biologia e Comportamento dos Cupins</h4>
+            <p>Cupins são insetos sociais que vivem em colônias organizadas com castas específicas: operários, soldados e reprodutores. Sua alimentação baseia-se em celulose, presente na madeira e materiais derivados. A sobrevivência das colônias depende da manutenção da umidade e proteção contra exposição direta ao ambiente externo.</p>
+
+            <h4>Métodos Eficazes de Prevenção</h4>
+            <ul>
+            <li><strong>Controle de Umidade:</strong> Manter ambientes secos e com boa ventilação, eliminando fontes de água parada ou infiltrações.</li>
+            <li><strong>Uso de Madeira Tratada:</strong> Aplicação de madeiras tratadas com produtos preservativos na construção.</li>
+            <li><strong>Inspeções Periódicas:</strong> Realizar vistorias técnicas para detecção precoce de sinais de infestação, como túneis e madeira oca.</li>
+            <li><strong>Barreiras Físicas e Químicas:</strong> Implantação de barreiras químicas no solo e proteção das fundações.</li>
+            <li><strong>Isolamento de Madeira:</strong> Evitar contato direto de madeira com o solo.</li>
+            </ul>
+
+            <h4>Protocolo Técnico de Dedetização Contra Cupins</h4>
+            <ul>
+            <li><strong>Diagnóstico Preliminar:</strong> Inspeção detalhada para identificação da espécie e extensão da infestação.</li>
+            <li><strong>Tratamento Localizado:</strong> Utilização de termiticidas líquidos e gel na madeira e áreas afetadas.</li>
+            <li><strong>Barreira Química no Solo:</strong> Aplicação de termiticidas para evitar o acesso do cupim ao imóvel.</li>
+            <li><strong>Monitoramento Contínuo:</strong> Instalação de armadilhas para avaliação da atividade dos cupins.</li>
+            <li><strong>Manutenção Preventiva:</strong> Orientação sobre cuidados estruturais e inspeções regulares.</li>
+            </ul>
+
+            <h4>Melhores Produtos e Venenos Utilizados</h4>
+            <ul>
+            <li><strong>Termiticidas à base de Fipronil:</strong> Alta eficácia residual, atua no sistema nervoso dos cupins, interrompendo a colônia.</li>
+            <li><strong>Imidacloprida:</strong> Utilizada para barreiras químicas no solo e tratamento de madeira.</li>
+            <li><strong>Produtos em Gel:</strong> Aplicados diretamente nas galerias, promovendo a eliminação do grupo de forma controlada.</li>
+            <li><strong>Isoclastina e Permetrina:</strong> Inseticidas de contato para tratamento superficial.</li>
+            </ul>
+
+            <h4>Considerações Finais</h4>
+            <p>O combate aos cupins requer uma abordagem técnica especializada, alinhada às melhores práticas certificadas. O protocolo da SC Pragas garante controle eficiente, minimizando danos e protegendo seu patrimônio com responsabilidade ambiental e máxima segurança.</p>
+        `
+    },
+    acaros: {
+        titulo: "Ácaros",
+        html: `
+        <h2>Controle Profissional de Ácaros: Espécies Perigosas, Biologia, Prevenção e Dedetização</h2>
+
+        <h3>Introdução</h3>
+        <p>Os ácaros são microrganismos pertencentes à classe Arachnida, caracterizados por seu tamanho microscópico e ampla distribuição em ambientes urbanos e rurais. No Brasil, diversas espécies são consideradas pragas urbanas, exigindo estratégias específicas de controle e prevenção.</p>
+
+        <h3>Principais Espécies de Ácaros Perigosas no Brasil</h3>
+        <ol>
+        <li>
+            <strong>Ácaro da Poeira Doméstica (Dermatophagoides pteronyssinus)</strong><br>
+            <strong>Distribuição:</strong> Amplamente presente em ambientes internos, especialmente em colchões, travesseiros e estofados.<br>
+            <strong>Características:</strong> Microscópico, com cerca de 0,3 mm de comprimento, alimenta-se de escamas de pele humana.<br>
+            <strong>Biologia:</strong> Reprodução rápida em ambientes quentes e úmidos.<br>
+            <strong>Hábitos:</strong> Preferem locais com acúmulo de poeira e pouca ventilação.<br>
+            <strong>Riscos:</strong> Causadores de alergias respiratórias, como rinite e asma.
+        </li>
+        <li>
+            <strong>Ácaro Vermelho (Tetranychus urticae)</strong><br>
+            <strong>Distribuição:</strong> Comum em plantas ornamentais e agrícolas.<br>
+            <strong>Características:</strong> Pequeno, com coloração avermelhada, visível a olho nu em grandes infestações.<br>
+            <strong>Biologia:</strong> Alimentam-se da seiva das plantas, causando danos significativos.<br>
+            <strong>Hábitos:</strong> Ativos em ambientes quentes e secos, reproduzem-se rapidamente.<br>
+            <strong>Riscos:</strong> Prejuízos econômicos em culturas agrícolas e danos estéticos em plantas ornamentais.
+        </li>
+        <li>
+            <strong>Ácaro da Sarna (Sarcoptes scabiei)</strong><br>
+            <strong>Distribuição:</strong> Afeta humanos e animais domésticos.<br>
+            <strong>Características:</strong> Microscópico, escava túneis na pele para depositar ovos.<br>
+            <strong>Biologia:</strong> Ciclo de vida completo ocorre na pele do hospedeiro.<br>
+            <strong>Hábitos:</strong> Transmissão por contato direto ou através de roupas e roupas de cama contaminadas.<br>
+            <strong>Riscos:</strong> Causa sarna, caracterizada por coceira intensa e lesões cutâneas.
+        </li>
+        <li>
+            <strong>Ácaro Demodex (Demodex folliculorum)</strong><br>
+            <strong>Distribuição:</strong> Habita folículos pilosos e glândulas sebáceas humanas.<br>
+            <strong>Características:</strong> Microscópico, com corpo alongado, vive em áreas oleosas da pele.<br>
+            <strong>Biologia:</strong> Alimenta-se de células mortas e secreções sebáceas.<br>
+            <strong>Hábitos:</strong> Mais ativo durante a noite, pode proliferar em casos de imunossupressão.<br>
+            <strong>Riscos:</strong> Associado a condições dermatológicas como rosácea e blefarite.
+        </li>
+        <li>
+            <strong>Ácaro Varroa (Varroa destructor)</strong><br>
+            <strong>Distribuição:</strong> Afeta colônias de abelhas (Apis mellifera).<br>
+            <strong>Características:</strong> Visível a olho nu, com cerca de 1,1 mm de comprimento, parasita externo.<br>
+            <strong>Biologia:</strong> Alimenta-se da hemolinfa das abelhas, transmitindo vírus.<br>
+            <strong>Hábitos:</strong> Reproduz-se dentro das células de cria das abelhas.<br>
+            <strong>Riscos:</strong> Causa a varroose, levando ao colapso de colônias de abelhas.
+        </li>
+        </ol>
+
+        <h3>Biologia e Ciclo de Vida</h3>
+        <p>Os ácaros apresentam ciclos de vida que variam conforme a espécie, geralmente compostos por estágios de ovo, larva, ninfa e adulto. As condições ambientais, como temperatura e umidade, influenciam diretamente na velocidade de reprodução e desenvolvimento desses organismos.</p>
+
+        <h3>Hábitos e Comportamento</h3>
+        <ul>
+        <li><strong>Alimentação:</strong> Variam de acordo com a espécie, podendo alimentar-se de matéria orgânica, seiva de plantas, células da pele ou fluidos corporais.</li>
+        <li><strong>Atividade:</strong> Algumas espécies são mais ativas durante a noite, enquanto outras apresentam atividade contínua.</li>
+        <li><strong>Locomoção:</strong> Movimentam-se em busca de alimento e locais propícios para reprodução, podendo infestar rapidamente ambientes favoráveis.</li>
+        </ul>
+
+        <h3>Estratégias de Prevenção</h3>
+        <ul>
+        <li><strong>Higienização Regular:</strong> Manter ambientes limpos, aspirando carpetes, estofados e colchões com frequência.</li>
+        <li><strong>Controle de Umidade:</strong> Utilizar desumidificadores para manter a umidade relativa abaixo de 50%.</li>
+        <li><strong>Ventilação Adequada:</strong> Garantir a circulação de ar nos ambientes, evitando o acúmulo de poeira e umidade.</li>
+        <li><strong>Lavagem de Roupas de Cama:</strong> Lavar lençóis, fronhas e cobertores semanalmente em água quente (acima de 60°C).</li>
+        <li><strong>Uso de Capas Antiácaros:</strong> Proteger colchões e travesseiros com capas específicas que impedem a passagem de ácaros.</li>
+        </ul>
+
+        <h3>Protocolo Técnico de Dedetização Contra Ácaros</h3>
+        <p>A dedetização eficaz contra ácaros requer um protocolo técnico estruturado, conforme as melhores práticas do setor:</p>
+        <ol>
+        <li><strong>Inspeção e Diagnóstico:</strong> Avaliação detalhada do ambiente para identificar a espécie de ácaro presente e o grau de infestação.</li>
+        <li><strong>Definição do Tratamento:</strong> Escolha do método de controle mais adequado, considerando a espécie e a extensão da infestação.</li>
+        <li><strong>Aplicação de Acaricidas:</strong> Utilização de produtos específicos, como sprays e pós acaricidas, em locais estratégicos.</li>
+        <li><strong>Monitoramento Contínuo:</strong> Acompanhamento periódico para avaliar a eficácia do tratamento e realizar intervenções adicionais, se necessário.</li>
+        </ol>
+
+        <h3>Produtos Acaricidas Recomendados</h3>
+        <p>A escolha do produto acaricida deve considerar a espécie de ácaro e o tipo de infestação. Alguns dos produtos mais eficazes incluem:</p>
+        <ul>
+        <li><strong>Piretróides:</strong> Acaricidas sintéticos de amplo espectro, utilizados em pulverizações e tratamentos localizados.</li>
+        <li><strong>Ácido Benzóico:</strong> Utilizado no controle de ácaros em ambientes internos, especialmente em tecidos e estofados.</li>
+        <li><strong>Fosfina:</strong> Gás utilizado em fumigações para controle de ácaros em produtos armazenados.</li>
+        <li><strong>Armadilhas Adesivas:</strong> Dispositivos que capturam ácaros, auxiliando no monitoramento e controle da infestação.</li>
+        </ul>
+
+        <h3>Conclusão</h3>
+        <p>O controle profissional de ácaros é essencial para preservar a saúde e o bem-estar dos ocupantes dos ambientes, bem como para proteger plantas e animais domésticos. A SC Pragas, oferece soluções eficazes e sustentáveis para o manejo dessas pragas, utilizando técnicas avançadas e produtos de alta qualidade. Entre em contato conosco para uma avaliação personalizada e mantenha seu ambiente livre de ácaros e dos riscos associados.</p>
+        `
+    },
+    brocas: {
+        titulo: 'Brocas',
+        html: `
+            <h3>Controle de Brocas – SC Pragas</h3>
+            <p>As brocas são insetos xilófagos (consumidores de madeira) altamente destrutivos, capazes de comprometer estruturas civis, móveis, documentos e objetos de valor histórico. No Brasil, algumas espécies são consideradas pragas urbanas de importância econômica significativa. Na SC Pragas, utilizamos protocolos rigorosos baseados em normas técnicas, garantindo eficácia e segurança no controle dessa praga.</p>
+
+            <h4>Principais Espécies de Brocas no Brasil</h4>
+
+            <p><strong>Broca-do-pó (Lyctus brunneus)</strong><br>
+            <strong>Família:</strong> Lyctidae<br>
+            <strong>Descrição:</strong> Pequeno besouro marrom-avermelhado com 2 a 7 mm. Conhecido por deixar finíssimo pó amadeirado nos locais infestados.<br>
+            <strong>Biologia:</strong> Prefere madeiras ricas em amido (como cumaru, peroba, tauari). O ciclo de vida pode durar de 3 a 12 meses.<br>
+            <strong>Habitat:</strong> Móveis, assoalhos, estruturas de madeira seca.<br>
+            <strong>Danos:</strong> Perfurações finas e acúmulo de pó.<br>
+            <strong>Imagem sugerida:</strong> Foto macro de Lyctus brunneus com evidência do pó residual.</p>
+
+            <p><strong>Broca-do-madeiramento (Hylotrupes bajulus)</strong><br>
+            <strong>Família:</strong> Cerambycidae<br>
+            <strong>Descrição:</strong> Corpo marrom-escuro com até 25 mm de comprimento; antenas longas.<br>
+            <strong>Biologia:</strong> A larva pode permanecer ativa por anos dentro da madeira, perfurando vigas e estruturas inteiras.<br>
+            <strong>Habitat:</strong> Madeira de pinus e eucalipto em telhados e estruturas internas.<br>
+            <strong>Danos:</strong> Fragilização estrutural de telhados e forros.<br>
+            <strong>Imagem sugerida:</strong> Adulto e larva de Hylotrupes bajulus, com corte transversal da madeira mostrando galerias.</p>
+
+            <p><strong>Broca-do-café (Hypothenemus hampei)</strong><br>
+            <strong>Família:</strong> Curculionidae<br>
+            <strong>Descrição:</strong> Inseto preto com menos de 2 mm. Afeta grãos de café, mas pode migrar para ambientes urbanos em zonas de armazenamento.<br>
+            <strong>Biologia:</strong> A fêmea perfura os grãos para depositar ovos.<br>
+            <strong>Habitat:</strong> Armazéns, depósitos de alimentos e estufas.<br>
+            <strong>Danos:</strong> Contaminação de alimentos e produtos armazenados.<br>
+            <strong>Imagem sugerida:</strong> Close do inseto sobre grão de café perfurado.</p>
+
+            <h4>Biologia Geral das Brocas</h4>
+            <ul>
+            <li><strong>Reprodução:</strong> O ciclo varia por espécie. Em geral, os ovos são depositados em fendas naturais ou buracos antigos na madeira.</li>
+            <li><strong>Desenvolvimento:</strong> A fase larval é a mais destrutiva. As larvas escavam galerias internas e podem permanecer ocultas por anos.</li>
+            <li><strong>Preferências alimentares:</strong> Amido, celulose e lignina presentes em madeiras secas.</li>
+            <li><strong>Atividade:</strong> Algumas espécies são mais ativas em ambientes úmidos e com pouca ventilação.</li>
+            </ul>
+
+            <h4>Hábitos e Comportamento</h4>
+            <ul>
+            <li>Insetos silenciosos e discretos: A infestação muitas vezes só é percebida pelos orifícios e o pó.</li>
+            <li>Fuga da luz: Preferem locais escuros e protegidos.</li>
+            <li>Atração por madeira maltratada: Madeira sem tratamento químico é o principal alvo.</li>
+            </ul>
+
+            <h4>Melhores Formas de Prevenção</h4>
+            <ul>
+            <li>Tratamento preventivo da madeira com produtos químicos inseticidas e fungicidas antes da instalação.</li>
+            <li>Inspeções periódicas em estruturas de madeira, especialmente em imóveis antigos.</li>
+            <li>Controle da umidade nos ambientes, pois madeira úmida facilita a infestação.</li>
+            <li>Vedação de frestas e buracos para impedir postura de ovos.</li>
+            <li>Utilização de madeiras de boa procedência, já tratadas contra xilófagos.</li>
+            </ul>
+
+            <h4>Protocolo de Dedetização da SC Pragas</h4>
+            <ol>
+            <li><strong>Inspeção Técnica:</strong> Identificação de pontos críticos e nível de infestação.</li>
+            <li><strong>Aplicação de Inseticida de Alta Penetração:</strong><br>
+                Utilização de produtos à base de Fipronil, Imidacloprida ou Permetrina, dependendo da espécie e tipo de madeira.<br>
+                Técnicas de injeção direta nas galerias, pincelamento localizado e nebulização ULV.
+            </li>
+            <li><strong>Isolamento e monitoramento:</strong><br>
+                Áreas tratadas são isoladas para segurança, com monitoramento posterior via armadilhas específicas.
+            </li>
+            </ol>
+
+            <h4>Melhor Tipo de Veneno Contra Brocas</h4>
+            <ul>
+            <li><strong>Fipronil (0,3% a 0,5%):</strong> Altamente eficaz, age por contato e ingestão, baixa toxicidade para humanos.</li>
+            <li><strong>Imidacloprida (0,1% a 0,5%):</strong> Ideal para infestações em móveis e estruturas com acabamento, pois não mancha.</li>
+            <li><strong>Permetrina (0,2%):</strong> Excelente efeito residual, usado em pincelamentos externos e proteção preventiva.</li>
+            </ul>
+
+            <p>Todos os produtos utilizados são registrados na ANVISA e IBAMA, com laudos técnicos e aplicação por profissionais treinados conforme NR-35 e NR-6.</p>
+
+            <h4>Conclusão</h4>
+            <p>O combate às brocas exige conhecimento técnico especializado, diagnóstico preciso e uso de inseticidas adequados. A SC Pragas, conta certificações necessárias, garante um controle eficiente, seguro e sustentável contra brocas.</p>
+        `
+    },
+    pombos: {
+        titulo: 'Pombos',
+        html: `
+            <h3>Controle Profissional de Pombos: Espécies, Biologia, Hábitos e Protocolos de Manejo</h3>
+            <h4>Introdução</h4>
+            <p>Embora pombos não sejam insetos, representam uma das principais pragas urbanas devido à sua alta adaptabilidade aos ambientes urbanos, causam prejuízos estruturais e riscos sanitários. O manejo eficiente exige conhecimento das espécies predominantes, comportamento e aplicação de protocolos específicos de controle e prevenção.</p>
+
+            <h4>Principais Espécies de Pombos no Brasil</h4>
+            <ol>
+            <li><strong>Pombo-comum (Columba livia)</strong><br>
+                <strong>Características:</strong> Plumagem cinza azulado com duas faixas negras nas asas e coloração esbranquiçada na parte inferior.<br>
+                <strong>Biologia:</strong> Altamente adaptável, ciclo reprodutivo curto com até 6 ninhadas anuais, cada uma com 1 ou 2 filhotes.<br>
+                <strong>Hábitos:</strong> Nidifica em estruturas urbanas como prédios, pontes e torres; alimenta-se de restos orgânicos e grãos.<br>
+                <strong>Riscos:</strong> Contaminação por excrementos, transmissão de fungos, bactérias e ácaros causadores de doenças respiratórias.
+            </li>
+            <li><strong>Pombo-doméstico (Columba guinea)</strong><br>
+                <strong>Características:</strong> Plumagem marrom avermelhada, comum em áreas rurais e periurbanas.<br>
+                <strong>Biologia:</strong> Ciclo reprodutivo semelhante ao pombo-comum, porém menos associado a ambientes urbanos.<br>
+                <strong>Hábitos:</strong> Prefere áreas abertas e vegetação, ocasionalmente invade estruturas urbanas.<br>
+                <strong>Riscos:</strong> Menor impacto urbano, mas pode causar incômodo em áreas agrícolas.
+            </li>
+            </ol>
+
+            <h4>Biologia e Comportamento</h4>
+            <p>Pombos vivem em colônias, com alta taxa de reprodução. São aves granívoras que se adaptam facilmente a diferentes ambientes, especialmente onde há disponibilidade de alimentos e abrigo. Suas fezes acumuladas causam corrosão em estruturas metálicas e contaminação microbiológica, agravando problemas de saúde pública.</p>
+
+            <h4>Melhores Formas de Prevenção</h4>
+            <ul>
+            <li><strong>Barreiras Físicas:</strong> Instalação de telas e espículas para impedir pouso e nidificação.</li>
+            <li><strong>Controle Ambiental:</strong> Manutenção da limpeza urbana para eliminar fontes de alimento.</li>
+            <li><strong>Remoção de Ninhos:</strong> Inspeção periódica e retirada manual, com medidas de segurança.</li>
+            <li><strong>Uso de Repelentes:</strong> Aplicação de gel ou spray repelente em áreas estratégicas.</li>
+            <li><strong>Educação e Conscientização:</strong> Orientação a moradores e comerciantes sobre manejo adequado de resíduos.</li>
+            </ul>
+
+            <h4>Protocolo Técnico de Manejo Contra Pombos</h4>
+            <ul>
+            <li><strong>Inspeção Inicial:</strong> Avaliação detalhada das áreas infestadas, identificação dos pontos de nidificação e pouso.</li>
+            <li><strong>Planejamento do Controle:</strong> Seleção das técnicas mais adequadas conforme o ambiente e grau de infestação.</li>
+            <li><strong>Aplicação de Barreiras e Repelentes:</strong> Implementação de dispositivos físicos e químicos para exclusão e afastamento.</li>
+            <li><strong>Monitoramento Contínuo:</strong> Vistorias regulares para avaliar a eficácia e necessidade de intervenções adicionais.</li>
+            <li><strong>Registro e Relatórios Técnicos:</strong> Documentação conforme normas técnicas para controle de qualidade.</li>
+            </ul>
+
+            <h4>Considerações sobre Uso de Produtos Químicos</h4>
+            <p>Não é recomendado o uso de venenos para controle de pombos devido a riscos ambientais, à saúde pública e à legislação vigente. As técnicas devem priorizar métodos físicos e de manejo integrado, garantindo segurança e sustentabilidade.</p>
+        `
+    },
     // Adicione outras pragas aqui no mesmo formato
   };
 
