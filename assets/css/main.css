@@ -1173,6 +1173,7 @@ section,
   letter-spacing: 1px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.3s;
@@ -1180,6 +1181,7 @@ section,
   color: var(--contrast-color);
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 180px;
 }
 
 .btn-whatsapp {
