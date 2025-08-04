@@ -345,6 +345,30 @@ h6 {
   }
 }
 
+@media (max-width: 773px) {
+  .header .cta-btn {
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 542px) {
+  .header .cta-btn {
+    font-size: 11px;
+    margin: 0px;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 364px) {
+  .header .cta-btn {
+    font-size: 9px;
+    margin: 0px;
+    padding: 4px 6px;
+  }
+}
+
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
@@ -355,23 +379,37 @@ h6 {
   overflow: hidden;
 }
 
+@media (max-width: 530px){
+  .header .logo img {
+    max-height: 100px;
+    margin-right: 30px;
+  }
+}
+
 @media (max-width: 420px){
   .header .logo img {
-    max-height: 120px;
-    margin-right: 30px;
+    max-height: 90px;
+    margin-right: 0px;
   }
 }
 
 @media (max-width: 356px){
   .header .logo img {
-    max-height: 100px;
-    margin-right: 10px;
+    max-height: 70px;
+    margin-right: 0px;
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 324px){
   .header .logo img {
-    max-height: 70px;
+    max-height: 60px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 310px){
+  .header .logo img {
+    max-height: 55px;
     margin-right: 0px;
   }
 }
