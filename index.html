@@ -58,14 +58,14 @@
             <li><a href="#about">Sobre</a></li>
             <li class="dropdown"><a href="#features"><span>Serviços</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#" data-bs-target="#features-tab-1">Controle Integrado de Pragas (CIP)</a></li>
-                <li><a href="#" data-bs-target="#features-tab-2">Inspeção Técnica</a></li>
-                <li><a href="#" data-bs-target="#features-tab-3">Desinsetização</a></li>
-                <li><a href="#" data-bs-target="#features-tab-4">Desratização</a></li>
-                <li><a href="#" data-bs-target="#features-tab-5">Descupinização</a></li>
-                <li><a href="#" data-bs-target="#features-tab-6">Sanitização de Ambientes</a></li>
-                <li><a href="#" data-bs-target="#features-tab-7">Armadilha Luminosa;</a></li>
-                <li><a href="#" data-bs-target="#features-tab-8">Limpeza de Caixas e Reservatórios de Água</a></li>
+                <li><a href="#">Controle Integrado de Pragas (CIP)</a></li>
+                <li><a href="#">Inspeção Técnica</a></li>
+                <li><a href="#">Desinsetização</a></li>
+                <li><a href="#">Desratização</a></li>
+                <li><a href="#">Descupinização</a></li>
+                <li><a href="#">Sanitização de Ambientes</a></li>
+                <li><a href="#">Armadilha Luminosa;</a></li>
+                <li><a href="#">Limpeza de Caixas e Reservatórios de Água</a></li>
               </ul>
             </li>
             <li><a href="controle-de-pragas.html?tipo=controleEscorpiao">Controle de Escorpiões</a></li>
@@ -179,7 +179,7 @@
         <p>Pragas Urbanas<br></p>
       </div>
       <div class="container">
-        <ul id="features-tab-buttons" class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
+        <ul class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
         <li class="nav-item col-6 col-lg-3">
           <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
             <i><img src="assets/img/cip.png" alt=""></i>
@@ -1095,20 +1095,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <script>
-  document.querySelectorAll('#navmenu a[data-bs-target]').forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const targetSelector = link.getAttribute('data-bs-target');
-      const tabTriggerEl = document.querySelector(`#features-tab-buttons [data-bs-target="${targetSelector}"]`);
-      if (tabTriggerEl) {
-        const tab = bootstrap.Tab.getOrCreateInstance(tabTriggerEl);
-        tab.show();
-      }
-    });
-  });
-</script>
 
 </body>
 
