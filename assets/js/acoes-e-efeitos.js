@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>Somente com participação ativa e comprometimento de todos é possível manter os ambientes livres de pragas, garantindo segurança, saúde e qualidade de vida. Conte com a SC Pragas nessa luta.</p>
     `
   },
-    monitoramentoControlePragas: {
+    monitoramento: {
     titulo: "Monitoramento",
     html: `
       <h3><strong>Monitoramento no Controle Integrado de Pragas</strong></h3>
