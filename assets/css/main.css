@@ -1304,13 +1304,6 @@ section,
   margin-right: 20px;
 }
 
-.stats .stats-item span {
-  color: var(--heading-color);
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-}
-
 .stats .stats-item p {
   padding: 0;
   margin: 0;
