@@ -2257,3 +2257,14 @@ section,
   line-height: 1 !important;
 }
 
+/* Outros */
+.img-centralizada {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-escondida {
+  display: none !important;
+}
