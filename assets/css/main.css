@@ -832,6 +832,34 @@ h6 {
   font-size: 13px;
 }
 
+.footer .politica-qualidade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 8px 0;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer .politica-qualidade:hover {
+  background-color: var(--nav-hover-color);
+  color: var(--accent-color);
+}
+
+@media (max-width: 767px){
+  .footer img {
+    width: 80%;
+  }
+  .footer .politica-qualidade {
+    width: 70%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -2267,4 +2295,26 @@ section,
 
 .nav-escondida {
   display: none !important;
+}
+
+.politica-link {
+  height: 80px;
+  font-size: 30px;
+  background-color: var(--nav-hover-color);
+  color: var(--accent-color);
+}
+
+.politica-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.politica-link a:hover {
+  background-color: #86c8f1;
+  color: var(--contrast-color) !important;
 }
