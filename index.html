@@ -1010,7 +1010,7 @@ function gtag_report_conversion(url) {
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <form action="https://formsubmit.co/ajax/dedetizadora@scpragas.com" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -1029,11 +1029,14 @@ function gtag_report_conversion(url) {
                   <textarea class="form-control" name="message" rows="4" placeholder="Mensagem" required=""></textarea>
                 </div>
 
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                <!-- Campos ocultos -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Novo contato pelo formulário do site">
 
+                <div class="col-md-12 text-center">
+                  <div class="loading" style="display:none;">Carregando...</div>
+                  <div class="error-message" style="display:none; color:rgb(255, 255, 255);">Erro ao enviar. Tente novamente.</div>
+                  <div class="sent-message" style="display:none; color:rgb(255, 255, 255);">Sua mensagem foi enviada. Obrigado!</div>
                   <button type="submit">Enviar Mensagem</button>
                 </div>
 
