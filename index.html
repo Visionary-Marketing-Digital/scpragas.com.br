@@ -30,8 +30,6 @@ function gtag_report_conversion(url) {
 }
 </script>
 
-
-
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>SC Pragas – Controle de Pragas</title>
@@ -1010,40 +1008,37 @@ function gtag_report_conversion(url) {
           </div>
 
           <div class="col-lg-6">
-            <form action="https://formsubmit.co/ajax/dedetizadora@scpragas.com" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <form action="https://formsubmit.co/lucaspicoli.leme@gmail.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Seu Nome" required="">
+                  <input type="text" name="nome" class="form-control" placeholder="Seu Nome" required style="height: 55px;">
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Seu Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Seu Email" required style="height: 55px;">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Mensagem" required=""></textarea>
+                  <input type="text" name="assunto" class="form-control" placeholder="Assunto" required style="height: 55px;">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea name="mensagem" class="form-control" rows="4" placeholder="Mensagem" required></textarea>
                 </div>
 
                 <!-- Campos ocultos -->
                 <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/obrigado.html">
                 <input type="hidden" name="_subject" value="Novo contato pelo formulário do site">
 
                 <div class="col-md-12 text-center">
-                  <div class="loading" style="display:none;">Carregando...</div>
-                  <div class="error-message" style="display:none; color:rgb(255, 255, 255);">Erro ao enviar. Tente novamente.</div>
-                  <div class="sent-message" style="display:none; color:rgb(255, 255, 255);">Sua mensagem foi enviada. Obrigado!</div>
                   <button type="submit">Enviar Mensagem</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
+          </div>
         </div>
 
       </div>

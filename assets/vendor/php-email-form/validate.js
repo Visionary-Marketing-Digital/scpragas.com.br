@@ -10,13 +10,16 @@
 
   forms.forEach(function(e) {
     e.addEventListener('submit', function(event) {
+      // Permite que o FormSubmit funcione normalmente
+      if (this.action.includes("formsubmit.co")) return; // deixa passar sem bloquear
+
       event.preventDefault();
 
       let thisForm = this;
 
       let action = thisForm.getAttribute('action');
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
-      
+
       if (!action) {
         displayError(thisForm, 'The form action property is not set!');
         return;
