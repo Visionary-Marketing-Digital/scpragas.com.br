@@ -2,7 +2,17 @@
 <html lang="pt-br">
 
 <head>
-  <script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-735143810"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-735143810');
+</script>
+
+<script>
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
@@ -60,7 +70,7 @@ function gtag_report_conversion(url) {
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:dedetizadora@scpragas.com"> dedetizadora@scpragas.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><a href="https://api.whatsapp.com/send?phone=5519999940755&text=Olá,%20gostaria%20de%20realizar%20um%20orçamento." target="_blank" ><script>gtag_report_conversion();</script><span>(19) 99994-0755</span></a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><a href="https://api.whatsapp.com/send?phone=5519999940755&text=Olá,%20gostaria%20de%20realizar%20um%20orçamento." target="_blank" onclick="gtag_report_conversion();"><span>(19) 99994-0755</span></a></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="https://www.linkedin.com/company/sc-pragas/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -109,9 +119,8 @@ function gtag_report_conversion(url) {
     <h4 class="text-center mt-5"><strong>Fale com a SC Pragas</strong></h4>
         <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
           <a href="https://api.whatsapp.com/send?phone=5519999940755&text=Olá,%20gostaria%20de%20realizar%20um%20orçamento."
-            target="_blank" class="btn-contato btn-whatsapp">
+            target="_blank" class="btn-contato btn-whatsapp" onclick="gtag_report_conversion();">
             <i class="fab fa-whatsapp me-2"></i> WhatsApp
-            <script>gtag_report_conversion();</script>
           </a>
           <a href="mailto:dedetizadora@scpragas.com"
             class="btn-contato btn-email">
@@ -164,10 +173,9 @@ function gtag_report_conversion(url) {
   </footer>
 
   <!-- Botão Whatsapp Flutuante -->
-  <a href="https://api.whatsapp.com/send?phone=5519999940755&text=Olá,%20gostaria%20de%20realizar%20um%20orçamento." id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=5519999940755&text=Olá,%20gostaria%20de%20realizar%20um%20orçamento." id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" target="_blank" onclick="gtag_report_conversion();">
     <i class="fab fa-whatsapp"></i>
     <span class="whatsapp-text">Atendimento</span>
-    <script>gtag_report_conversion();</script>
   </a>
 
   <!-- Preloader -->
