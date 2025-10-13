@@ -1001,7 +1001,7 @@ function gtag_report_conversion(url) {
           </div>
 
           <div class="col-lg-6">
-            <form id="formContato" action="https://script.google.com/macros/s/AKfycbyKy9iUo_jNtPsRuweox1tSud5WHW2SUqmfJRi9ldq80NXPpIKb54RF9ungYxHrw93AmQ/exec" method="POST" onsubmit="enviarFormulario(event)" class="php-email-form">
+            <form id="formContato" onsubmit="enviarFormulario(event)" action="https://script.google.com/macros/s/AKfycbyKy9iUo_jNtPsRuweox1tSud5WHW2SUqmfJRi9ldq80NXPpIKb54RF9ungYxHrw93AmQ/exec" method="POST" onsubmit="enviarFormulario(event)" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-md-6">
                   <input type="text" name="Nome" class="form-control" placeholder="Seu nome" required>
@@ -1020,26 +1020,17 @@ function gtag_report_conversion(url) {
                 </div>
               </div>
             </form>
-
-            <script>
-            function enviarFormulario(event) {
-              event.preventDefault();
-              const form = event.target;
-
-              fetch(form.action, {
-                method: 'POST',
-                body: new FormData(form),
-                mode: 'no-cors'
-              })
-              .then(() => {
-                window.location.href = "obrigado.html";
-              })
-              .catch(() => {
-                alert('Erro ao enviar. Tente novamente.');
-              });
-            }
-            </script>
-
+            <!-- Modal de Sucesso -->
+            <div class="modal fade" id="modalSucesso" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow rounded">
+                  <div class="modal-body text-center p-4">
+                    <h5 class="text-primary mb-1">Mensagem enviada com sucesso!</h5>
+                    <p class="text-secondary mb-0">Agradecemos o contato, retornaremos em breve.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
