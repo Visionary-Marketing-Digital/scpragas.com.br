@@ -105,6 +105,7 @@
   }
   window.addEventListener('load', aosInit);
 
+
   /**
    * Initiate GLightbox
    */
@@ -224,6 +225,10 @@
       faqItem.parentNode.classList.toggle('faq-active');
     });
   });
+
+  // Ativa a imagem flutuante na esquerda ao carregar a página
+  const imgFloat = document.getElementById("img-float-left");
+  if (imgFloat) imgFloat.classList.add("active");
 
 })(); // Fim do IIFE principal
 

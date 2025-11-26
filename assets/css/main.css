@@ -955,6 +955,42 @@ h6 {
   color: var(--contrast-color);
 }
 
+#img-float-left {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  transition: all 0.4s;
+  opacity: 1;
+}
+
+#img-float-left img {
+  width: 115px;
+  height: 85px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#img-float-left:hover img {
+  transform: scale(1.1);
+}
+
+#img-float-left {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#img-float-left.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 400px){
+    #img-float-left img {
+    width: 100px;
+    height: 70px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
