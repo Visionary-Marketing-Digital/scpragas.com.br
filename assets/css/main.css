@@ -904,7 +904,7 @@ h6 {
 .scroll-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   right: 15px;
   bottom: 15px;
   z-index: 99999;
@@ -965,8 +965,8 @@ h6 {
 }
 
 #img-float-left img {
-  width: 115px;
-  height: 85px;
+  width: 150px;
+  height: 110px;
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -990,7 +990,6 @@ h6 {
     height: 70px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices

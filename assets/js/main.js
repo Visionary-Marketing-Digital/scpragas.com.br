@@ -77,20 +77,6 @@
     });
   }
 
-  /**
-   * Scroll top button
-   */
-  const scrollTop = document.querySelector('.scroll-top');
-
-  function toggleScrollTop() {
-    if (!scrollTop) return;
-    window.scrollY > 50
-      ? scrollTop.classList.add('active')
-      : scrollTop.classList.remove('active');
-  }
-
-  window.addEventListener('load', toggleScrollTop);
-  document.addEventListener('scroll', toggleScrollTop);
 
   /**
    * Animation on scroll (AOS)
